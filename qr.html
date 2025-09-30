@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>QR Landing</title>
+    <meta http-equiv="refresh" content="5;url=index.html">
+    <style>
+      body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; display:flex;align-items:center;justify-content:center;height:100vh;margin:0 }
+      h1 { font-size: clamp(18px, 4vw, 48px); }
+    </style>
+  </head>
+  <body>
+    <h1>QR Landing Page</h1>
+    <script>
+      // Fallback redirect in case meta-refresh is blocked
+      setTimeout(function(){ window.location.href = 'index.html'; }, 5000);
+    </script>
+  </body>
+</html>
