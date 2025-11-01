@@ -4,38 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>i-Kineers Webby</title>
-<header style="background: #2c3e50; color: #fff; padding: 32px 0; text-align: center; font-size: 2.5em; font-family: 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-    i-Kineers FTC Team 31129!
-</header>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; }
+        header { background-color: #fff; text-align: center; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        header img { max-width: 150px; height: auto; }
+        header h1 { margin: 10px 0 0; font-size: 2em; color: #007bff; }
+        main { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        section { margin-bottom: 40px; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h2 { color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+        .team-members { display: flex; flex-wrap: wrap; gap: 20px; }
+        .member-card { background-color: #f0f0f0; padding: 15px; border-radius: 8px; flex: 1 1 300px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .member-card h3 { margin-top: 0; color: #333; }
+        .donate-btn { display: inline-block; background-color: #28a745; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .donate-btn:hover { background-color: #218838; }
+        .full-width-section { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 40px; }
+        .full-width-section h2 { color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 10px; margin-top: 0; }
+        .full-width-section img { width: 100%; height: auto; display: block; margin: 10px 0; }
+        .sponsors { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .sponsor-card { background-color: #f0f0f0; padding: 15px; border-radius: 8px; flex: 1 1 200px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: center; align-items: center; }
+        .sponsor-card img { max-width: 100px; height: auto; margin-bottom: 10px; }
+        .sponsor-card p { margin: 5px 0; }
+        @media (max-width: 768px) { main { padding: 10px; } section { padding: 15px; } .team-members { flex-direction: column; } .sponsors { flex-direction: column; } }
+    </style>
 </head>
 <body>
-    <header style="background: #2c3e50; color: #fff; padding: 24px 0; text-align: center; font-size: 2.1em; font-family: 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-        i-Kineers FTC Team 31129
+    <header>
+        <img src="images/ikineers logo.png" alt="i-Kineers Logo">
+        <h1>i-Kineers FTC Team 31129</h1>
     </header>
 
-    <main style="max-width: 900px; margin: 32px auto; padding: 0 16px; font-family: 'Segoe UI', Arial, sans-serif;">
-        <section id="intro">
-            <h1>Hello, more to come!</h1>
-            <p>Welcome to our team website. Below is a list of our current team members. Replace the placeholders with real names and roles.</p>
+    <main>
+        <section id="about">
+            
+            <p>
+<h2>Meet the Team</h2>
+    
+    <p>
+        We are a <strong>community-based</strong> robotics team dedicated to the <strong>FIRST Tech Challenge (FTC)</strong> competition. Based in <strong>Orange County, California</strong>, we are a group of passionate students united by a drive to learn, build, and compete.
+    </p>
+    
+    <p>
+        Our mission goes beyond building robots; we focus on developing crucial <strong>STEM skills</strong>—from mechanical design and coding to strategic thinking and problem-solving. We live the core <strong>FTC principles and values</strong> by practicing <strong>Gracious Professionalism</strong> (competing fiercely while treating everyone with respect) and <strong>Coopertition</strong> (working together even with rival teams).
+    </p>
+    
+    <p>
+        Through the FTC season, our members discover how to <strong>collaborate effectively</strong> in a team environment, preparing them to tackle real-world challenges with creativity and skill.
+    </p>
+
+            </p>
+            <h3>Team Members</h3>
+            <div class="team-members">
+                <div class="member-card">
+                    <h3>Tydus</h3>
+                    <p><strong>Role:</strong> Programmer, Team Captain</p>
+                    <p><strong>Grade:</strong> 10</p>
+                    <p><strong>Background:</strong>Tydus has a strong interest in programming and has been involved in various coding projects.  He enjoys tackling complex problems and finding innovative solutions.  When he's not coding, Tydus loves to play video games, playing soccer, and tennis.</p>
+                </div>
+                <div class="member-card">
+                    <h3>Landen</h3>
+                    <p><strong>Role:</strong>CAD, Builder, Marketing</p>
+                    <p><strong>Grade:</strong> 10</p>
+                    <p><strong>Background:</strong> Landen is a sophomore in high school who has been playing tennis for several years and enjoys both recreational and competitive play. His interest in robotics began in 4th grade, sparking a curiosity for technology and problem-solving. He’s an active member of school clubs such as Public Works and Model United Nations, and also volunteers at local events and tennis camps.</p>
+                </div>
+                <div class="member-card">
+                    <h3>Maximus</h3>
+                    <p><strong>Role:</strong> CAD, Builder</p>
+                    <p><strong>Grade:</strong> 7</p>
+                    <p><strong>Background:</strong> Max is passionate about design and engineering. He enjoys bringing ideas to life through CAD and teamwork.  When he's not working on robotics, Max loves to play basketball, tennis, and video games.</p>
+                </div>
+                <div class="member-card">
+                    <h3>Korben</h3>
+                    <p><strong>Role:</strong> CAD, Builder</p>
+                    <p><strong>Grade:</strong> 8</p>
+                    <p><strong>Background:</strong> Korben is a creative thinker with a passion for design and engineering. He enjoys working on CAD projects and collaborating with his teammates. In his free time, Korben loves to play video games, and build models.</p>
+                </div>
+                <div class="member-card">
+                    <h3>Ram</h3>
+                    <p><strong>Role:</strong> CAD, Builder, Programmer</p>
+                    <p><strong>Grade:</strong> 8</p>
+                    <p><strong>Background:</strong> Ram is a dedicated team member with a passion for robotics and programming. He enjoys tackling challenges and finding innovative solutions. In his free time, Ram loves to explore new technologies and work on personal projects.</p>
+                </div>                
+            </div>
+            <h3>Coaches & Mentors</h3>
+            <div class="team-members">
+                <div class="member-card">
+                    <h3>Ben</h3>
+                    <p><strong>Role:</strong> Lead Coach</p>
+                    <p><strong>Grade:</strong> N/A </p>
+                    <p><strong>Background:</strong> Ben has been passionate with software engineering since a young age.  He enjoys mentoring younger students and helping them develop their skills.  In his free time, Ben loves to read, design, and spend time with his family.  Current hobbies include riding the AI wave and exploring new technologies.</p>
+                </div>
+                <div class="member-card">
+                    <h3>Tan</h3>
+                    <p><strong>Role:</strong> Coach</p>
+                    <p><strong>Grade:</strong> N/A </p>
+                    <p><strong>Background:</strong> Tan has a background in mechanical engineering and has been involved in robotics for several years. He enjoys working with students and helping them develop their skills in engineering and programming.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="team" style="margin-top: 28px;">
-            <h2>Team Members</h2>
-            <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
-                <li style="background: #f7f7f7; padding: 12px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
-                    <strong>Landen Tran</strong>
-                    <div style="font-size: 0.9em; color: #555;">Member / 2025</div>
-                <nnd/li>
-                <li style="background: #f7f7f7; padding: 12px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
-                    <strong>Member Name</strong>
-                    <div style="font-size: 0.9em; color: #555;">Role / Year</div>
-                </li>
-                <li style="background: #f7f7f7; padding: 12px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
-                    <strong>Member Name</strong>
-                    <div style="font-size: 0.9em; color: #555;">Role / Year</div>
-                </li>
-            </ul>
-            <p style="margin-top:12px; font-size:0.9em; color:#666;">Tip: edit this file and replace the placeholder entries with real names. You can add or remove <code>&lt;li&gt;</code> items as needed.</p>
+        <section id="donations">
+            <h2>Donations</h2>
+            <p>Support our team by making a donation. Your contributions help us build and compete!</p>
+            <a href="https://hcb.hackclub.com/donations/start/ftc-i-kineers-team-31129" class="donate-btn">Donate Now</a>
+        </section>
+
+        <section id="team-photo" class="full-width-section">
+            <h2>Team Photo</h2>
+            <img src="images/team-photo.jpg" alt="i-Kineers Team Photo">
+            <i> FTC Decode Launch 2025</i>
+        </section>
+
+        <section id="sponsors">
+            <h2>Sponsors</h2>
+            <div class="sponsors">
+                <div class="sponsor-card">
+                    <img src="images/sponsors/boeing-logo-300x119.jpeg" alt="Boeing Logo">
+                    <p>Boeing</p>
+                </div>
+                <div class="sponsor-card">
+                    <img src="images/sponsors/Panasonic_logo_blue.jpg" alt="Panasonic Logo">
+                    <p>Panasonic</p>
+                </div>
+                <div class="sponsor-card">
+                    <img src="https://assets.hackclub.com/flag-standalone.svg" alt="HackClub Logo">
+                    <p>HackClub</p>
+                </div>
+                <div class="sponsor-card">
+                    <p>👨‍👩‍👧‍👦 Our Parents</p>
+                    <p>Who donate not just financially, but with their time and support! ❤️</p>
+                </div>
+            </div>
         </section>
     </main>
 </body>
